@@ -29,11 +29,9 @@ PID + 曲线策略控温，回落后自动交还系统。整个过程不需要�
 
 ## 截图
 
-> 📷 占位：截图待添加到 `docs/screenshots/` 后自动显示
-
 <p align="center">
-  <img src="docs/screenshots/menu-monitor.png" width="360" alt="菜单栏监控">
-  <img src="docs/screenshots/curve-editor.png" width="480" alt="曲线编辑">
+  <img src="docs/screenshots/menu-monitor.png" width="330" alt="监控页：温度/功率/风扇与内存 Top5">
+  <img src="docs/screenshots/curve-editor.png" width="285" alt="曲线页：PID 与自定义曲线编辑">
 </p>
 
 ## 系统要求
