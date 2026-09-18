@@ -16,6 +16,26 @@ PID + 曲线策略控温，回落后自动交还系统。整个过程不需要�
 - 🔧 **特权组件一条命令安装**：root LaunchDaemon 常驻守护，Unix socket 本机通信
 - 🖥 **菜单栏常驻**：迷你模式只显示实时曲线，展开为完整面板
 
+## 与同类工具对比
+
+| | FanPilot | Macs Fan Control | TG Pro |
+|---|---|---|---|
+| 价格 | 免费开源 (MIT) | 免费/捐助 | $25 |
+| 待机风扇 0 转 | ✅ 自动交还固件（实测整夜静音） | ❌ 需手动设最低转速 | ❌ 同左 |
+| 负载自动接管 | ✅ 温度/功率双门限，无需人工 | ❌ 固定值全时段生效 | ✅ 但策略不可编辑 |
+| 转速曲线+PID 编辑 | ✅ 图形化可编辑 | ❌ 仅固定转速 | 部分 |
+| 菜单栏实时温度曲线 | ✅ 15 分钟迷你曲线 | ❌ 仅数字 | ❌ |
+| 开源可审计 | ✅ | ❌ | ❌ |
+
+## 截图
+
+> 📷 占位：截图待添加到 `docs/screenshots/` 后自动显示
+
+<p align="center">
+  <img src="docs/screenshots/menu-monitor.png" width="360" alt="菜单栏监控">
+  <img src="docs/screenshots/curve-editor.png" width="480" alt="曲线编辑">
+</p>
+
 ## 系统要求
 
 - macOS 13+（Apple Silicon）
